@@ -1,0 +1,34 @@
+body {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
+    text-align: center;
+    
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:darkgreen;
+    text-align: center;
+}
+
+button {
+    border-radius: 12px;
+    border: 2px solid brown;
+}
+
+form {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+
+}
+
+
+
+
+
+    
+

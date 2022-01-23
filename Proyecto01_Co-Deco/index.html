@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>"Hello Co-Deco</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+        <body>
+            <h1 class="co-deco">CODIGO SECRETO</h1>
+            <form id="formTexto">
+                
+                <br>
+                <input id="input" type="text"  placeholder="Ingrese el texto aqui" name="txt" size="35">
+                <br>
+                <label class="labelTxt" for="ingresarTexto">(Solo letras minúsculas y sin números)</label>
+                <br>
+                <br>
+                
+                            <button id="decodificar" class="botonDeCodificar">DeCodificar</button>
+                            <button id="codificar" class="botonCodificar">Codificar</button>
+                        
+                        
+                <br>
+                <br>
+                <br>
+                <br>
+                
+
+            </form>
+            <form id="TextoResultado">
+                        <!-- <h3 class="text-co">mostrar mensaje</h3>-->
+
+                        <textarea name="nombre" id="txt" cols="30" rows="4">Mensaje</textarea>
+                        <br><br>
+                        <button id="copy">Copiar texto</button>
+                          
+            </form>
+                <script>
+
+                    function copy() {
+                    var copyText = document.querySelector("#txt");
+                    copyText.select();
+                    document.execCommand("copy");
+                    }
+                    document.querySelector("#copy").addEventListener("click", copy);
+                    
+                </script>
+            <script src="js/principal.js"></script>
+        </body>
+</html>
